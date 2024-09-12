@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <article class="check1">
+      <img src="/sad.jpg" alt="sad Picture" width="200" height="200" /> <br />
+      <p style="color: blue"><b>Sad Mood</b></p>
+      <hr />
+    </article>
+    <article>
+      <h1>Current Courses</h1>
+      <ul>
+        <li>CSE 451 - HTML <a href="">(Link)</a></li>
+        <li>CSE 471 - Math <a href="">(Link)</a></li>
+        <li>CSE 498 - Research <a href="">(Link)</a></li>
+      </ul>
+    </article>
+    <article>
+      <h1>Hobbies</h1>
+      <ul>
+        <li>Game</li>
+        <li>Music</li>
+        <li>Movies</li>
+      </ul>
+    </article>
+    <article>
+      <h1>Courses</h1>
+      <table border="2">
+        <thead>
+          <tr>
+            <th>Course number</th>
+            <th>Course title</th>
+            <th>Semester taken</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th colspan="3">For Credit</th>
+          </tr>
+          <tr>
+            <td>6.1223</td>
+            <td>Operating system</td>
+            <td>spring 19</td>
+          </tr>
+          <tr>
+            <td>5.9480</td>
+            <td>Artificial intelligence</td>
+            <td>fall 19</td>
+          </tr>
+          <tr>
+            <td>7.0879</td>
+            <td>Data Mining</td>
+            <td>fall 19</td>
+          </tr>
+          <tr>
+            <th colspan="3">For listener</th>
+          </tr>
+          <tr>
+            <td>8.0383</td>
+            <td>Database</td>
+            <td>fall 19</td>
+          </tr>
+          <tr>
+            <td>6.0393</td>
+            <td>Database</td>
+            <td>fall 19</td>
+          </tr>
+          <tr>
+            <td>6.0393</td>
+            <td>Java Programming</td>
+            <td>Spring 19</td>
+          </tr>
+        </tbody>
+      </table>
+    </article>
+    <article>
+      <h1>Submit information</h1>
+      <table>
+        <tr>
+          <td>Full Name</td>
+          <td><input type="text" name="fullname" value="" /></td>
+        </tr>
+        <tr>
+          <td>Gender</td>
+          <td>
+            <input type="radio" name="gender" value="Male" />Male
+            <input type="radio" , name="gender" value="Female" /> Female
+          </td>
+        </tr>
+        <tr>
+          <td>Hobbies</td>
+          <td>
+            Music <input type="checkbox" name="checkbox" value="music" /> <br />
+            Game <input type="checkbox" name="checkbox" value="game" /> <br />
+            Movie <input type="checkbox" name="checkbox" value="movie" />
+          </td>
+        </tr>
+        <tr>
+          <td>Date Of Birth</td>
+          <td><input type="date" name="date" value="date" /></td>
+        </tr>
+        <tr>
+          <td>Country</td>
+          <td>
+            <select name="country">
+              <option value="Việt Nam">Việt Nam</option>
+              <option value="Thailand">Thái Lan</option>
+              <option value="Nb">Nhật Bản</option>
+              <option value="tq">Trung Quốc</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Picture</td>
+          <td><input type="file" /></td>
+        </tr>
+        <tr>
+          <td>Email</td>
+          <td><input type="text" name="email" value="" /></td>
+        </tr>
+        <tr>
+          <td>Password</td>
+          <td><input type="password" /></td>
+        </tr>
+        <tr>
+          <td>Favorite Word</td>
+          <td><textarea rows="5" cols="30" maxlength="1000"></textarea></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <input type="submit" name="submit" value="Submit" />
+            <input type="reset" />
+          </td>
+        </tr>
+      </table>
+    </article>
+  </body>
+</html>

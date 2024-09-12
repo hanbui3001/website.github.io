@@ -1,0 +1,12 @@
+.check1 {
+  text-align: center;
+}
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  background-color: rgb(205, 219, 219);
+}
+.hobby item {
+  display: flex;
+  align-items: center;
+}
